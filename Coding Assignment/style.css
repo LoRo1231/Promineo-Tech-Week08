@@ -1,0 +1,79 @@
+#link-boxes{
+    border-style: solid;
+    border-width: 3px;
+    padding: .25em;
+    margin: 6px;
+    
+}
+
+a{
+    color: #784B84;
+}
+
+#large-photo-size{
+    height: 700px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    margin-top: 30px;
+}
+
+#small-photo-size{
+    height: 180px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    margin: 30px;
+    display: inline; /* trying to center list.... not working */
+    text-align: center;
+}
+
+a:hover{
+    background-color: #9FE2BF;
+}
+
+#large-text{
+    font-size: 60px;
+    font-style: Bold;
+    font-family: Arial;
+    color: white;
+}
+
+#medium-text{
+    font-size: 30px;
+    font-style: Bold;
+    font-family: Arial;
+    color: white;
+}
+
+#small-text{
+    font-size: 20px;
+    font-style: Regular;
+    font-family: Arial;
+    color: white;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/979896.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+#table-spacing{
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+td:hover{
+    background-color: #9FE2BF;
+    color: black;
+}
